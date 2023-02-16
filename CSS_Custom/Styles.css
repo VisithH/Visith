@@ -551,3 +551,9 @@ p.About {
     display: flex;
     justify-content: center;
 }
+
+.reveal-section {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  

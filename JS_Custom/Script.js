@@ -48,3 +48,18 @@ let progress2 = setInterval(() => {
         clearInterval(progress2);
     }
 }, speed);
+
+// ScrollReveal().reveal('.body2')
+
+const revealSection = document.querySelector('.reveal-section');
+const revealPosition = revealSection.offsetTop;
+const windowHeight = window.innerHeight;
+
+function reveal() {
+    if (window.scrollY >= revealPosition - windowHeight / 2) {
+      revealSection.style.opacity = 1;
+    }
+  }
+  
+  window.addEventListener('scroll', reveal);
+  
