@@ -293,7 +293,7 @@ p.About {
 
 @keyframes html-fill {
     100% {
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -303,7 +303,7 @@ p.About {
 
 @keyframes gd-fill {
     100% {
-        width: 96%
+        width: 60%
     }
 }
 
@@ -313,7 +313,7 @@ p.About {
 
 @keyframes AD-fill {
     100% {
-        width: 60%;
+        width: 96%;
     }
 }
 
