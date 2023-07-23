@@ -125,7 +125,7 @@ section img#mountains_front {
 }
   
 #preloader{
-    background: #2b1055 url('/Images/Loader.gif') no-repeat center center;
+    background: #2b1055 url('/Images/loader_eclipse.svg') no-repeat center center;
     background-size: 5%;
     height: 100vh;
     width: 100%;
