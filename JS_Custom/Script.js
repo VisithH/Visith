@@ -1,3 +1,9 @@
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function() {
+  loader.style.display = "none";
+  
+});
+
 let stars = document.getElementById('stars');
 let moon = document.getElementById('moon');
 let mountains_behind = document.getElementById('mountains_behind');
